@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    cursor: pointer;
+}
+    
+.div{
+width: 160px;
+height: 60px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 40px;
+}
+nav{
+    height: 50px;
+    width: 47%;
+    background-color: white;
+    display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+.ul1{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+   font-size: 15px;
+ color: black;   
+}
+.div3{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.divv{
+    background-color: white;
+    display: flex;
+flex-direction: column;
+gap: 10px;
+display: none;
+position: absolute;
+left: 1px;
+top: 168px;
+width: 200px;
+height: 250px;
+background-color: white;
+
+}
+.ul2{
+    display: block;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#home:hover .divv{
+    display: block;
+    position: relative;
+}
+.listdiv2{
+    display: flex;
+flex-direction: column;
+align-items: center;
+display: none;
+left: 1px;
+top: 168px;
+width: 200px;
+height: 200px;
+background-color: white;
+}
+.ul3{
+    display: block;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#pages:hover .listdiv2{
+    display: block;
+    position: relative;  
+}
+.listdiv3{
+    display: flex;
+
+
+left: 1px;
+top: 700px;
+width: 500px;
+height: 500px;
+background-color: white;
+}
+.ul4{
+    display: block;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 10px;
+    background-color: aqua;
+}
+#shop:hover .listdiv3{
+    display: block;
+    position: relative;}
+    .divl1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: blueviolet;
+    }
